@@ -1,0 +1,12 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<siteMap xmlns="http://schemas.microsoft.com/AspNet/SiteMap-File-1.0" >
+    <siteMapNode roles="*">
+        <!--Create your menu page links here -->
+		<siteMapNode title="Home" url="~/Default.aspx" description="Home of Gun Dogs SA" roles="*" />
+		<siteMapNode title="About" url="~/About.aspx" description="About Gun Dogs SA" roles="*" />
+       
+		
+        
+        <!-- End menu page links -->
+    </siteMapNode>
+</siteMap>
