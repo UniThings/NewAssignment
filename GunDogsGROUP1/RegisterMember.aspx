@@ -48,6 +48,13 @@
                     ErrorMessage="Conformation Password Required" />
             </p>
             <p>
+                Address:</p>
+            <p>
+                &nbsp;<asp:TextBox ID="FVTextBoxAddress" runat="server" 
+                    Text='<%# Bind("address") %>'></asp:TextBox>
+                <br />
+            </p>
+            <p>
                 Role:<br />
                 <asp:DropDownList ID="DDLRoles" runat="server">
                 </asp:DropDownList>
@@ -64,14 +71,16 @@
     <asp:Label ID="LPageMsg" runat="server" EnableViewState="False" class="darkRed" />
     </p>
     <asp:SqlDataSource ID="SDSNewMember" runat="server" ConnectionString="<%$ ConnectionStrings:WebsiteDBConnectionString %>"
-        DeleteCommand="DELETE FROM [People] WHERE [Username] = @Username" InsertCommand="INSERT INTO [People] ([Username], [Name]) VALUES (@Username, @Name)"
-        SelectCommand="SELECT * FROM [People]" UpdateCommand="UPDATE [People] SET [Name] = @Name WHERE [Username] = @Username">
+        DeleteCommand="DELETE FROM [People] WHERE [Username] = @Username" InsertCommand="INSERT INTO [People] ([Username], [Name], [address]) VALUES (@Username, @Name, @address)"
+        SelectCommand="SELECT * FROM [People]" 
+        UpdateCommand="UPDATE [People] SET [Name] = @Name WHERE [Username] = @Username">
         <DeleteParameters>
             <asp:Parameter Name="Username" Type="String" />
         </DeleteParameters>
         <InsertParameters>
             <asp:Parameter Name="Username" Type="String" />
             <asp:Parameter Name="Name" Type="String" />
+            <asp:Parameter Name="address" />
         </InsertParameters>
         <UpdateParameters>
             <asp:Parameter Name="Name" Type="String" />
