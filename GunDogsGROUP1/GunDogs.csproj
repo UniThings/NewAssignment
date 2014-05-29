@@ -66,6 +66,7 @@
     <Content Include="Login.aspx" />
     <Content Include="MemberPages\Classes.aspx" />
     <Content Include="MemberPages\Trainers\ClassManagment.aspx" />
+    <Content Include="News.aspx" />
     <Content Include="RegisterMember.aspx" />
     <Content Include="Styles\Site.css" />
     <Content Include="Default.aspx" />
@@ -130,6 +131,12 @@
     </Compile>
     <Compile Include="MemberPages\Trainers\ClassManagment.aspx.designer.cs">
       <DependentUpon>ClassManagment.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="News.aspx.cs">
+      <DependentUpon>News.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="News.aspx.designer.cs">
+      <DependentUpon>News.aspx</DependentUpon>
     </Compile>
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="RegisterMember.aspx.cs">
