@@ -36,7 +36,7 @@
                 SortExpression="startTime" />
             <asp:BoundField DataField="endTime" HeaderText="endTime" 
                 SortExpression="endTime" />
-            <asp:CommandField ShowEditButton="True" ShowInsertButton="True" />
+            <asp:CommandField ShowEditButton="True" />
         </Fields>
     </asp:DetailsView>
 </asp:Content>
