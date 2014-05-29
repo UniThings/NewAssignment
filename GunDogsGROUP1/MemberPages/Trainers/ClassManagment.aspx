@@ -29,14 +29,13 @@
                 SortExpression="classID" />
             <asp:BoundField DataField="className" HeaderText="className" 
                 SortExpression="className" />
-            <asp:BoundField DataField="memID" HeaderText="memID" SortExpression="memID" />
             <asp:BoundField DataField="classType" HeaderText="classType" 
                 SortExpression="classType" />
             <asp:BoundField DataField="startTime" HeaderText="startTime" 
                 SortExpression="startTime" />
             <asp:BoundField DataField="endTime" HeaderText="endTime" 
                 SortExpression="endTime" />
-            <asp:CommandField ShowEditButton="True" />
+            <asp:CommandField ShowInsertButton="True" />
         </Fields>
     </asp:DetailsView>
 </asp:Content>
