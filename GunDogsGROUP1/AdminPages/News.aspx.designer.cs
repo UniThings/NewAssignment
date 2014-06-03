@@ -7,7 +7,7 @@
 // </auto-generated>
 //------------------------------------------------------------------------------
 
-namespace GunDogs {
+namespace GunDogs.AdminPages {
     
     
     public partial class News {
