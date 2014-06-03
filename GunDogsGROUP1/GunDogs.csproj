@@ -65,7 +65,9 @@
     <Content Include="Example\RegisterMember.aspx" />
     <Content Include="Login.aspx" />
     <Content Include="MemberPages\Classes.aspx" />
+    <Content Include="MemberPages\MembershipEdit.aspx" />
     <Content Include="MemberPages\Trainers\ClassManagment.aspx" />
+    <Content Include="MemberPages\AddDog.aspx" />
     <Content Include="News.aspx" />
     <Content Include="RegisterMember.aspx" />
     <Content Include="Styles\Site.css" />
@@ -125,12 +127,26 @@
     <Compile Include="MemberPages\Classes.aspx.designer.cs">
       <DependentUpon>Classes.aspx</DependentUpon>
     </Compile>
+    <Compile Include="MemberPages\MembershipEdit.aspx.cs">
+      <DependentUpon>MembershipEdit.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="MemberPages\MembershipEdit.aspx.designer.cs">
+      <DependentUpon>MembershipEdit.aspx</DependentUpon>
+    </Compile>
     <Compile Include="MemberPages\Trainers\ClassManagment.aspx.cs">
       <DependentUpon>ClassManagment.aspx</DependentUpon>
       <SubType>ASPXCodeBehind</SubType>
     </Compile>
     <Compile Include="MemberPages\Trainers\ClassManagment.aspx.designer.cs">
       <DependentUpon>ClassManagment.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="MemberPages\AddDog.aspx.cs">
+      <DependentUpon>AddDog.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="MemberPages\AddDog.aspx.designer.cs">
+      <DependentUpon>AddDog.aspx</DependentUpon>
     </Compile>
     <Compile Include="News.aspx.cs">
       <DependentUpon>News.aspx</DependentUpon>
