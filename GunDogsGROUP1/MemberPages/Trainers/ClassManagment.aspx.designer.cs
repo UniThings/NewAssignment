@@ -22,12 +22,12 @@ namespace GunDogs.MemberPages.Trainers {
         protected global::System.Web.UI.WebControls.SqlDataSource Class1DS;
         
         /// <summary>
-        /// DetailsView1 control.
+        /// FVNewClass control.
         /// </summary>
         /// <remarks>
         /// Auto-generated field.
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.DetailsView DetailsView1;
+        protected global::System.Web.UI.WebControls.FormView FVNewClass;
     }
 }
