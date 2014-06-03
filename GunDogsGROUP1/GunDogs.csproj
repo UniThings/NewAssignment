@@ -52,6 +52,7 @@
   </ItemGroup>
   <ItemGroup>
     <Content Include="About.aspx" />
+    <Content Include="AddDog.aspx" />
     <Content Include="App_Data\ASPNETDB.MDF" />
     <Content Include="App_Data\aspnetdb_log.ldf">
       <DependentUpon>ASPNETDB.MDF</DependentUpon>
@@ -66,6 +67,7 @@
     <Content Include="Login.aspx" />
     <Content Include="MemberPages\Classes.aspx" />
     <Content Include="MemberPages\ClassManagment.aspx" />
+    <Content Include="MembershipEdit.aspx" />
     <Content Include="News.aspx" />
     <Content Include="RegisterMember.aspx" />
     <Content Include="Styles\Site.css" />
@@ -86,6 +88,13 @@
     </Compile>
     <Compile Include="About.aspx.designer.cs">
       <DependentUpon>About.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="AddDog.aspx.cs">
+      <DependentUpon>AddDog.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="AddDog.aspx.designer.cs">
+      <DependentUpon>AddDog.aspx</DependentUpon>
     </Compile>
     <Compile Include="Default.aspx.cs">
       <DependentUpon>Default.aspx</DependentUpon>
@@ -131,6 +140,13 @@
     </Compile>
     <Compile Include="MemberPages\ClassManagment.aspx.designer.cs">
       <DependentUpon>ClassManagment.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="MembershipEdit.aspx.cs">
+      <DependentUpon>MembershipEdit.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="MembershipEdit.aspx.designer.cs">
+      <DependentUpon>MembershipEdit.aspx</DependentUpon>
     </Compile>
     <Compile Include="News.aspx.cs">
       <DependentUpon>News.aspx</DependentUpon>
