@@ -5,7 +5,7 @@
 		<siteMapNode title="Home" url="~/Default.aspx" description="Home of Gun Dogs SA" roles="*" />
 		<siteMapNode title="About" url="~/About.aspx" description="About Gun Dogs SA" roles="*" />
     <siteMapNode title="Classes" url="~/MemberPages/Classes.aspx" description="Classes Gun Dogs SA" roles="*" />
-    <siteMapNode title="Class Management" url="~/MemberPages/Trainers/ClassManagement.aspx" description="About Gun Dogs SA" roles="*" />
+    <siteMapNode title="ClassManagment" url="~/MemberPages/ClassManagment.aspx" description="Classes Gun Dogs SA" roles="*" />
     <siteMapNode title="News" url="~/News.aspx" description="About Gun Dogs SA" roles="*" />   
         <!-- End menu page links -->
     </siteMapNode>

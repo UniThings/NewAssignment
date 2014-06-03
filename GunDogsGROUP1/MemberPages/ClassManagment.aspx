@@ -58,19 +58,19 @@
                     CausesValidation="False" CommandName="Cancel" Text="Cancel" />
             </EditItemTemplate>
             <InsertItemTemplate>
-                className:
+                Class Name:
                 <asp:TextBox ID="classNameTextBox" runat="server" 
                     Text='<%# Bind("className") %>' />
                 <br />
-                classType:
+                Class Type:&nbsp;&nbsp;
                 <asp:TextBox ID="classTypeTextBox" runat="server" 
                     Text='<%# Bind("classType") %>' />
                 <br />
-                startTime:
+                Start Time:&nbsp;&nbsp;
                 <asp:TextBox ID="startTimeTextBox" runat="server" 
                     Text='<%# Bind("startTime") %>' />
                 <br />
-                endTime:
+                End Time:&nbsp;&nbsp;&nbsp;&nbsp;
                 <asp:TextBox ID="endTimeTextBox" runat="server" Text='<%# Bind("endTime") %>' />
                 <br />
                 <asp:LinkButton ID="InsertButton" runat="server" CausesValidation="True" 
