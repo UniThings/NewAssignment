@@ -3,9 +3,11 @@
     Latest NEWS
     <br>
     <p> HEADLINES OF THE DAY</p>
-    
-    <p>
-    <li> 
+    <p> 
+        <asp:TextBox ID="TextBox1" runat="server" Height="74px" Width="191px"></asp:TextBox>
+    </p>
+    <p> &nbsp;</p>
+    <p> &nbsp;</p>
         <br />
         </p>
         <br /></asp:Content>
