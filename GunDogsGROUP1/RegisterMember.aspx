@@ -22,7 +22,8 @@
     <asp:FormView ID="FVRegisterUser" runat="server" DataKeyNames="Username" DataSourceID="SDSNewMember"
         DefaultMode="Insert" OnItemInserted="FVRegisterUser_Inserted" 
         RenderOuterTable="False" oniteminserting="FVRegisterUser_Inserting" 
-        onprerender="FVRegisterUser_PreRender">
+        onprerender="FVRegisterUser_PreRender" 
+        onpageindexchanging="FVRegisterUser_PageIndexChanging">
         <InsertItemTemplate>
             <p>
                 Username:<br />
