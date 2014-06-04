@@ -53,7 +53,6 @@
   <ItemGroup>
     <Content Include="About.aspx" />
     <Content Include="AddDog.aspx" />
-    <Content Include="AdminPages\News.aspx" />
     <Content Include="App_Data\ASPNETDB.MDF" />
     <Content Include="App_Data\aspnetdb_log.ldf">
       <DependentUpon>ASPNETDB.MDF</DependentUpon>
@@ -96,12 +95,6 @@
     </Compile>
     <Compile Include="AddDog.aspx.designer.cs">
       <DependentUpon>AddDog.aspx</DependentUpon>
-    <Compile Include="AdminPages\News.aspx.cs">
-      <DependentUpon>News.aspx</DependentUpon>
-      <SubType>ASPXCodeBehind</SubType>
-    </Compile>
-    <Compile Include="AdminPages\News.aspx.designer.cs">
-      <DependentUpon>News.aspx</DependentUpon>
     </Compile>
     <Compile Include="Default.aspx.cs">
       <DependentUpon>Default.aspx</DependentUpon>
@@ -179,6 +172,7 @@
     </Compile>
   </ItemGroup>
   <ItemGroup>
+    <Folder Include="AdminPages\" />
     <Folder Include="Images\" />
     <Folder Include="MemberPages\Trainers\" />
   </ItemGroup>
